@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="theme.css">
+    <title>Sign up Form</title>
+</head>
+<body class="body">
+    <header></header>
+    <main class="main">
+        <form action="/submit" method="post">
+            <fieldset>
+                <legend>Contact Me</legend>
+                
+                <label for="username">Name : </label>
+                <input type="text" 
+                id="username" 
+                name="username"
+                placeholder="Enter Your Name"
+                required>
+
+                <label for="userdob">Date of Birth : </label>
+                <input type="date" 
+                id="userdob" 
+                dob="userdob"
+                placeholder="Enter Your Date Of Birth"
+                required>
+                <br>
+               
+                
+                <label for="userage">Age : </label>
+                <input type="number" 
+                range="1 to 100"
+                id="userage" 
+                age="userage"
+                placeholder="Enter Your age"
+                required>
+
+                <label for="useremail">Email : </label>
+                <input type="email" 
+                id="useremail" 
+                email="useremail"
+                placeholder="Enter Your Email"
+                required>
+
+                <label for="userpassword">Password : </label>
+                <input type="password" 
+                id="userpassword" 
+                password="userpassword"
+                placeholder="Enter Your Password"
+                required>
+                <br>
+
+                <button class="btn" > Submit </button>
+
+            </fieldset>
+        </form>
+    </main>
+    <footer></footer>
+</body>
+</html>

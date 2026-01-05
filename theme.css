@@ -1,0 +1,26 @@
+.body{
+    color: aliceblue;
+    background-color: black;
+    
+    display: flex;
+    justify-items: center;
+    width: 15rem;
+}
+#username{
+    margin: 15px;
+}
+#userage{
+    margin: 15px;
+}
+#userdob{
+    margin: 15px;
+}
+#useremail{
+    margin: 15px;
+}
+#userpassword{
+    margin: 15px;
+}
+.btn{
+    margin-left: 30%;
+}
